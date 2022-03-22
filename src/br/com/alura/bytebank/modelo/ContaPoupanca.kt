@@ -1,13 +1,11 @@
-package modelo
-
-import modelo.Conta
+package br.com.alura.bytebank.modelo
 
 class ContaPoupanca(
-    titular: String,
+    titular: Cliente,
     numero: Int
 ) : Conta(
     titular = titular,
-    numero = numero
+    numero = numero 
 ) {
     override fun saca(valor: Double) {
         if(this.saldo >= valor){
