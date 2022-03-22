@@ -1,3 +1,5 @@
+package br.com.alura.bytebank.teste
+
 import br.com.alura.bytebank.modelo.Analista
 import br.com.alura.bytebank.modelo.CalculadoraBonificacao
 import br.com.alura.bytebank.modelo.Diretor
