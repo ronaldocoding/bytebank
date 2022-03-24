@@ -1,7 +1,7 @@
-import br.com.alura.bytebank.modelo.Conta
+import br.com.alura.bytebank.modelo.*
 import br.com.alura.bytebank.teste.testaContasDiferentes
+import br.com.alura.bytebank.teste.testaObjects
 
 fun main() {
-    testaContasDiferentes()
-    println("total contas ${Conta.total}")
+    testaObjects()
 }
